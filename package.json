@@ -8,7 +8,9 @@
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-prism": "^4.3.2"
+    "react-prism": "^4.3.2",
+    "styled-components": "^4.3.2",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "@types/node": "^12.6.8",
@@ -21,6 +23,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
   }
 }
